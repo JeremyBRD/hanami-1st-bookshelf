@@ -1,4 +1,3 @@
-# apps/web/controllers/home/index.rb
 module Web
     module Controllers
       module Home
