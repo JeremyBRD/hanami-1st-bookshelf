@@ -1,14 +1,10 @@
-# apps/web/controllers/books/index.rb
 module Web
   module Controllers
     module Books
-      class Index
+      class New
         include Web::Action
 
-        expose :books
-
         def call(params)
-          @books = BookRepository.new.all
         end
       end
     end
